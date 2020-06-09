@@ -11,7 +11,7 @@ from PyQt5.QtWidgets import QMainWindow
 from gui_manager import GUIManager
 from path_constants import RIGAL_ROOT, RIGAL_RC, RIGAL_SCRATCH, \
                            MP_CODE_DEFAULT_EXAMPLE, make_rigal_scratch
-from mp_popup import mp_popup
+from message_popup import message_popup
 
 # main
 if __name__=="__main__":
@@ -31,7 +31,7 @@ if __name__=="__main__":
         else:
             error = "Trace Generator is not available at %s." \
                     "  Is it installed?  Aborting."% RIGAL_ROOT
-        mp_popup(None, error)
+        message_popup(None, error)
         print(error)
 
     else:

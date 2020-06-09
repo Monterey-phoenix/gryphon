@@ -19,10 +19,10 @@ from PyQt5.QtGui import (QBrush, QColor, QLinearGradient, QPainter,
 from PyQt5.QtGui import QTransform
 from PyQt5.QtWidgets import (QGraphicsItem, QGraphicsView, QStyle)
 from PyQt5.QtWidgets import QGraphicsScene
-from graphics_rect import graphics_rect
+from graph_constants import graphics_rect
 from graph_item import GraphItem
 from settings_manager import settings
-from collapse_helpers import collapse_below, uncollapse_below
+from graph_collapse_helpers import collapse_below, uncollapse_below
 #from node import Node # for Node detection
 from edge_grip import EdgeGrip
 

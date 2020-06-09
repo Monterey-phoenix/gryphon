@@ -10,7 +10,6 @@ from PyQt5.QtGui import QPainter
 from PyQt5.QtGui import QColor, QLinearGradient, QBrush, QRadialGradient, QPen
 from PyQt5.QtWidgets import QStyleOptionViewItem
 from graph_item import GraphItem
-from graphics_rect import graphics_rect
 from settings_manager import settings
 
 """export_trace_manager manages export of trace image files.

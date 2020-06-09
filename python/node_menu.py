@@ -3,7 +3,7 @@ from PyQt5.QtCore import pyqtSlot # for signal/slot support
 from PyQt5.QtWidgets import QMenu
 from PyQt5.QtWidgets import QAction
 from PyQt5.QtGui import QCursor
-from collapse_helpers import collapse_below, uncollapse_below
+from graph_collapse_helpers import collapse_below, uncollapse_below
 
 class NodeMenu(QObject):
 

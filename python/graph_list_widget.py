@@ -23,7 +23,7 @@ from PyQt5.QtWidgets import QListWidgetItem
 from PyQt5.QtWidgets import QStyle
 
 from graph_item import GraphItem
-from graphics_rect import graphics_rect
+from graph_constants import graphics_rect
 
 """GraphListWidget provides the graph list.  It wraps details of parts,
 ref. http://doc.qt.io/qt-5/model-view-programming.html.

@@ -2,7 +2,6 @@
 #from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QColorDialog
 from PyQt5.QtGui import QColor
-from mp_popup import mp_popup
 from settings_manager import settings
 
 class ColorSelectorWidget:

@@ -5,7 +5,7 @@ from PyQt5.QtGui import QIntValidator, QIcon
 from graph_item import GraphItem
 
 class TraceNavigation(QWidget):
-    """Container for trace navigation widgets
+    """Container and its widgets for navigating traces
     """
 
     def __init__(self, graphs_manager, graph_list_widget):

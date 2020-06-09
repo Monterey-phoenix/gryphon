@@ -16,7 +16,6 @@ from PyQt5.QtWidgets import QGraphicsSimpleTextItem
 from PyQt5.QtWidgets import QMenu
 from PyQt5.QtWidgets import QAction
 from PyQt5.QtWidgets import QGraphicsSceneContextMenuEvent
-from graphics_rect import graphics_rect
 from settings_manager import settings
 
 # Qt line style from MP line style name

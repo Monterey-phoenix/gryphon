@@ -12,9 +12,9 @@ from PyQt5.QtGui import QFont
 from PyQt5.QtGui import QCursor
 from PyQt5.QtWidgets import (QGraphicsItem, QGraphicsView, QStyle)
 from PyQt5.QtWidgets import QGraphicsSceneContextMenuEvent
-from graphics_rect import graphics_rect
+from graph_constants import graphics_rect
 from settings_manager import settings
-from collapse_helpers import at_and_below_in
+from graph_collapse_helpers import at_and_below_in
 from node_menu import NodeMenu
 
 # Node

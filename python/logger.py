@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QPlainTextEdit
 from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtCore import QObject
 
-"""Logger with log_pane"""
+"""Log to log_pane and possibly also to status bar"""
 class Logger():
     def __init__(self, statusbar):
         self.statusbar = statusbar

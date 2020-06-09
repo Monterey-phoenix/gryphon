@@ -36,7 +36,7 @@ import json
 from PyQt5.QtCore import QObject # for signal/slot support
 from PyQt5.QtCore import pyqtSignal, pyqtSlot # for signal/slot support
 from PyQt5.QtCore import Qt
-from mp_popup import mp_popup
+from message_popup import message_popup
 from path_constants import MP_SETTINGS_FILENAME
 
 # user's default path
@@ -126,7 +126,7 @@ class SettingsManager(QObject):
             with open(filename, "w") as f:
                 json.dump(settings, f)
         except Exception as e:
-            mp_popup(None, "Error saving settings file: %s" % str(e))
+            message_popup(None, "Error saving settings file: %s" % str(e))
 
     def _save(self):
         self.save_to(_settings_filename())
@@ -144,7 +144,7 @@ class SettingsManager(QObject):
             self.change(new_settings)
 
         except Exception as e:
-            mp_popup(None, "Error reading settings file: %s" % str(e))
+            message_popup(None, "Error reading settings file: %s" % str(e))
 
     def _load(self):
         self.load_from(_settings_filename())

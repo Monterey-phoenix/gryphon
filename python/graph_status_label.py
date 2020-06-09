@@ -9,11 +9,11 @@ from PyQt5.QtCore import QObject # for signal/slot support
 from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QLabel
 
-"""Provides status text for the graph traces."""
-class GraphStatus(QObject):
+"""Provides status text for graph traces in a QLabel."""
+class GraphStatusLabel(QObject):
 
     def __init__(self, graphs_manager):
-        super(GraphStatus, self).__init__()
+        super(GraphStatusLabel, self).__init__()
 
         self.graphs_manager = graphs_manager
 

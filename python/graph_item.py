@@ -1,6 +1,6 @@
 from PyQt5.QtCore import QRect
-from graphics_rect import graphics_rect
-from collapse_helpers import collapsed_edges
+from graph_sonstants import graphics_rect
+from graph_collapse_helpers import collapsed_edges
 from edge import Edge
 from edge_point_placer import EdgePointPlacer
 

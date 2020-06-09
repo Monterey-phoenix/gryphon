@@ -28,7 +28,7 @@ from graph_main_widget import GraphMainWidget
 from graph_list_widget import GraphListWidget
 from graph_list_width_manager import GraphListWidthManager
 from scope_spinner import ScopeSpinner
-from graph_status import GraphStatus
+from graph_status_label import GraphStatusLabel
 from graphs_manager import GraphsManager
 from mp_code_editor import MPCodeEditor
 from logger import Logger
@@ -109,11 +109,11 @@ class GUIManager(QObject):
                                     self.settings_manager)
 
         # the graph status widget
-        self.graph_status = GraphStatus(self.graphs_manager)
+        self.graph_status_label = GraphStatusLabel(self.graphs_manager)
 
         # the statusbar
         self.statusbar = self.w.statusBar()
-        self.statusbar.addPermanentWidget(self.graph_status.status_text)
+        self.statusbar.addPermanentWidget(self.graph_status_label.status_text)
         self.statusbar.showMessage("Open, Import, or Compose MP Code to begin.")
 
         # the logger containing log_pane=QPlainTextEdit

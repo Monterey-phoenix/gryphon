@@ -1,0 +1,13 @@
+# vim
+*.swp
+*.swo
+
+# LaTeX
+mp_py_um.aux
+mp_py_um.log
+mp_py_um.out
+mp_py_um.toc
+
+# Python
+__pycache__
+

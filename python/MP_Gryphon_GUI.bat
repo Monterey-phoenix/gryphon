@@ -1,2 +1,0 @@
-python mp.py
-pause
